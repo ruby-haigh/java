@@ -13,10 +13,20 @@ public class Fizzbuzz {
         }
     }
     public static void main(String[] args) {
-        System.out.println(Fizzbuzz.play(1));
-        System.out.println(Fizzbuzz.play(3));
-        System.out.println(Fizzbuzz.play(5));
-        System.out.println(Fizzbuzz.play(15));
+        // For loop for Fizzbuzz 1 to 100
+//        for (Integer counter = 1; counter <= 100; counter ++) {
+//            System.out.println(Fizzbuzz.play(counter));
+//        }
+        Integer counter = 1;
+        while (counter <= 100) {
+            System.out.println(Fizzbuzz.play(counter));
+            counter ++;
+        }
+
+//        System.out.println(Fizzbuzz.play(1));
+//        System.out.println(Fizzbuzz.play(3));
+//        System.out.println(Fizzbuzz.play(5));
+//        System.out.println(Fizzbuzz.play(15));
 
     }
 }
