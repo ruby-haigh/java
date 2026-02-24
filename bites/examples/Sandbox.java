@@ -23,7 +23,7 @@ public class Sandbox {
         // you can read / get an item using its index
         reallyGreatNumbers.get(0);
         // => 3
-        
+
         reallyGreatNumbers.get(1);
         // => 5
 
@@ -34,5 +34,19 @@ public class Sandbox {
         // you can remove an item using its index
         reallyGreatNumbers.remove(0);
         // would remove the first item
+
+//        // create an array of four Strings
+//        String[] famousCats = {"Larry", "Palmerston", "Geronimo", "Cat Stevens"};
+//
+//        // get the first item
+//        famousCats[0];
+//        // => "Larry"
+//
+//        // change the first item
+//        famousCats[0] = "Grumpy Cat";
+//
+//        // remove the first item by replacing it will `null`
+//        famousCats[0] = null;
+
     }
 }
