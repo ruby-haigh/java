@@ -5,14 +5,14 @@ public class Bagel {
     String filling;
     Integer price;
 
-    public Bagel(String seeds1, String filling, Integer price) {
-        this.seeds = seeds1; //using different variable names to explore the parameter vs instance variable
+    public Bagel(String seeds, String filling, Integer price) {
+        this.seeds = seeds;
         this.filling = filling;
         this.price = price;
     }
 
     public String getSeeds() {
-        return seeds;
+        return this.seeds;
     }
 
     public String getFilling() {
